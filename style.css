@@ -14,6 +14,12 @@
     margin-bottom: 0;
 }
 
+.nav-bar{
+    position: relative;
+    left: 10px;
+    bottom: 600px;
+}
+
 .nav-bar > ul {
     list-style: none;
     margin: 0;
@@ -32,7 +38,10 @@ a {
 }
 
 .nav-list{
-    display: none;
+    /* display: none; */
+}
+.show{
+    display: block;
 }
 
 video {
@@ -47,7 +56,13 @@ video {
 }
 
 .copyright {
+    position: relative;
+    bottom: 155px;
     font-size: 10px;
     text-align: center;
     color: #000;
+}
+
+#menunav:hover{
+    rotate: 180deg;
 }

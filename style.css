@@ -16,8 +16,8 @@
 
 .nav-bar{
     position: relative;
-    left: 10px;
-    bottom: 600px;
+    left: 1vw;
+    bottom: 50vh;
 }
 
 .nav-bar > ul {
@@ -31,6 +31,8 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
+    line-height: 30px;
+    
 }
 a {
     text-decoration: none;
@@ -57,7 +59,7 @@ video {
 
 .copyright {
     position: relative;
-    bottom: 155px;
+    bottom: 2vh;
     font-size: 10px;
     text-align: center;
     color: #000;
@@ -72,25 +74,102 @@ conceito pagina style  */
 .conceitotext {
     columns: 2;
     font-size: 2vh;
-    gap: 100px;
+    gap: 80px;
     text-align: justify;
     text-justify: inter-word;
+    padding: 10px;
+    line-height: 30px;
 }
 
 .conceitoheader{
     display: flex;
     align-items: center;
+    overflow: auto;
 }
 
 #conceito1 {
     display: flex;
     justify-content: flex-start;
     padding-left: 1em;
-    font-size:10vh;
+    font-size:7vh;
+    overflow: auto;
 
 }
 
 #cletterconceito {
+    font-size:5vh;
+    color: #000;
+    margin-left: 1em;
+}
+
+/* memoria descritiva style  */
+
+.memdescheader{
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+.memdesctext{
+    columns: 1;
+    font-size: 2vh;
+    gap: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#memdesch{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 0.3em;
+        font-size:7vh;
+        overflow: auto;
+    
+    
+}
+
+#clettermem{
+    font-size:5vh;
+    color: #000;
+    margin-left: 1em;
+}
+
+/* style montra  */
+
+#videomontra{
+    width: 100vw;
+    height: 100vh;
+}
+
+#montraheader{
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+.montratext{
+    columns: 2;
+    font-size: 2vh;
+    gap: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#montra1{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 0.3em;
+        font-size:7vh;
+        overflow: auto;
+    
+    
+}
+
+#clettermontra{
     font-size:5vh;
     color: #000;
     margin-left: 1em;

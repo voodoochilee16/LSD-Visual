@@ -66,3 +66,32 @@ video {
 #menunav:hover{
     rotate: 180deg;
 }
+/*  
+conceito pagina style  */
+
+.conceitotext {
+    columns: 2;
+    font-size: 2vh;
+    gap: 100px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.conceitoheader{
+    display: flex;
+    align-items: center;
+}
+
+#conceito1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1em;
+    font-size:10vh;
+
+}
+
+#cletterconceito {
+    font-size:5vh;
+    color: #000;
+    margin-left: 1em;
+}

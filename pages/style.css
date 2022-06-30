@@ -95,6 +95,14 @@ conceito pagina style  */
     margin-left: 1em;
 }
 
+.nav_conceito {
+    margin-top: 20em;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 /* memoria descritiva style  */
 
 .memdescheader{

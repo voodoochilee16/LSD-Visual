@@ -281,3 +281,47 @@ conceito pagina style  */
     font-size:7vh;
     overflow: auto;
 }
+
+/* descriçao artigos style  */
+
+.desctext {
+    columns: 2;
+    font-size: 2vh;
+    gap: 80px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+    line-height: 30px;
+}
+
+#roupa {
+    height: 80vh;
+    width: auto;
+}
+
+.imgdesc{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+#cletterdesc{
+    font-size:3vh;
+    color: #000;
+    margin-left: 1em;
+}
+
+#descheader{
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+
+#desc1 {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1em;
+    font-size:7vh;
+    overflow: auto;
+
+}

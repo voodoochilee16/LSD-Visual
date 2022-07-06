@@ -1,2 +1,2 @@
 # LSD-Visual
-#Project for Visual Merchandising LSD 
+#Maria Pinto Project for Visual Merchandising LSD 
